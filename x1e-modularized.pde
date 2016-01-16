@@ -1,4 +1,4 @@
-// Practice -- x1e:  dynamic sketch, with variables.
+// Practice -- x1e:  modularized
 // B.A.Martin
 
 float x, y;
