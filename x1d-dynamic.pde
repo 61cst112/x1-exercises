@@ -34,7 +34,7 @@ void draw() {
   text( "Press any key to move Zoog!", width/3,10 );
   text( "Click mouse to relocate Zoog!", width/3,20 );
   fill( 0,0,255 );
-  text( "My name is:  B.A.Martin", 10,height-10 );
+  text( "x1d:  B.A.Martin", 10,height-10 );
   
   
   // Creature at (200,300)
