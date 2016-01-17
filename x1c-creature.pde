@@ -5,19 +5,19 @@ float x, y;
 float horizon;
 
 //// SETUP:  size, mode, initialize variables.
-
+{
   size( 640, 480 );
   smooth();
   ellipseMode( CENTER );
   horizon=  height/3;
   x=  200;
   y=  horizon-50;
-  
+}  
 
 //// DRAW THE FRAME:  scene, house, Zoog  
-{  
-// SCENE:  sky, grass, sun, house, creature at (x,y)
 
+//// SCENE:  sky, grass, sun, house, creature at (x,y)
+{
   background( 150,200,255 );              // Sky blue.
   fill( 200,255,200 );                    // Grass
   noStroke();
