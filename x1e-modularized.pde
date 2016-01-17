@@ -1,8 +1,9 @@
-// Practice -- x1e:  modularized
+// Practice -- dynamic sketch, with variables.
 // B.A.Martin
 
 float x, y;
 float horizon;
+float sunX=0, sunDX=1, sunY=50;
 
 // SETUP:  size & modes
 void setup() {
@@ -32,10 +33,20 @@ void scene(){
   rectMode( CORNERS );
   rect( 0,horizon, width,height ); 
   
+  // Sun 
+  fill( 255,255,0 );
+  ellipse( sunX,50, 40,40 );
+  sunX=  sunX + sunDX;
+  if (sunX>width) {                      // Sunset
+    sunX=  0;
+    sunY=  random( 50, 150 );
+  }
+
   // House
-  fill( 255,0,0 );                // Red
+  fill( 255,0,0 );                      // Red
   rect( 100,horizon-100, 300,horizon );
   triangle( 100,horizon-100, 300,horizon-100, 200,horizon-150 );
+  
 }  
 
 //// MESSAGES
