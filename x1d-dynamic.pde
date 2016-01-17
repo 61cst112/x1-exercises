@@ -19,7 +19,7 @@ void draw() {
   
   // SCENE:  sky, grass, sun, house, creature
 
-  background( 150,200,255 );              // Sky blue.
+  background( 120,200,255 );              // Sky blue.
   fill( 200,255,200 );                    // Grass
   noStroke();
   rectMode( CORNERS );
