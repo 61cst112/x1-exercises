@@ -1,4 +1,4 @@
-// Practice -- Scene + creature.
+// Practice x1b -- Scene + creature.
 // B.A.Martin
 
 //// SETUP:  size, mode, initialize variables.
@@ -27,7 +27,8 @@
 //// MESSAGES
 {
   fill(0);
-  text( "Zoog is at (200,300).", width/3,10 );
+  text( "Practice x1b -- Scene + creature.", width/3,10 );
+  text( "Zoog is at (200,300).", width/3,20 );
   fill( 0,0,255 );
   text( "My name is:  B.A.Martin", 10,height-10 );
 }  
