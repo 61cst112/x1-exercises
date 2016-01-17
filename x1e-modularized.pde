@@ -27,14 +27,14 @@ void draw() {
 //// SCENE:  sky, grass, sun, house, creature
 void scene(){
 
-  background( 150,200,255 );              // Sky blue.
-  fill( 200,255,200 );                    // Grass
+  background( 120,220,255 );              // Sky blue.
+  fill( 180,255,200 );                    // Grass
   noStroke();
   rectMode( CORNERS );
   rect( 0,horizon, width,height ); 
   
   // Sun 
-  fill( 255,255,0 );
+  fill( 255,220,0 );
   ellipse( sunX,50, 40,40 );
   sunX=  sunX + sunDX;
   if (sunX>width) {                      // Sunset
