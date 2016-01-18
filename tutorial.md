@@ -3,17 +3,22 @@
 ## Syntax Rules
 
 * Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
-* ````
+
+````
             // Always begin with a comment that says what you are trying to do!
+````
 
 * Semicolon __;__ must end each statement.
+
 ````
             // Draw a red house, with roof.
             fill( 255, 0, 0 );                              // Red house
             rect( 100,100, 50,50 );
             triangle( 100,100, 150,100, 125,50 );           // Roof.
-            
+````            
+
 * Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
+
 ````
             //// SETUP:  Define screen size, set modes.
             {
@@ -22,7 +27,13 @@
                         ellipseMode( CENTER );
             }
 
-*         
+            //// DRAW:  sky and sun
+            {
+                        background( 150, 200, 250 );                    // Blue sky
+                        fill( 255, 255, 0 );
+                        ellipse( width/2, 50, 30,30 );                  // Yello sun
+            }
+````
 
 * Blah blah
 
