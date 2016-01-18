@@ -56,7 +56,7 @@ void scene(){
 //// MESSAGES
 void messages() {
   fill(0);
-  text( "Click mouse to relocate Zoog!", width/3,10 );
+  text( "Click mouse to relocate Zoog (and change speed).", width/3,10 );
   text( "(Zoog goes home when 'h' key is pressed.)", width/2, horizon-10 );
   fill( 0,0,255 );
   text( "x1e-modular.  B.A.Martin", 10,height-10 );
@@ -67,10 +67,6 @@ void messages() {
 void action() {
   x=  x + dx;
   y=  y + dy;
-  if (x>width) {
-    x=150;
-    y=horizon-50;
-  }
 }
   
   
