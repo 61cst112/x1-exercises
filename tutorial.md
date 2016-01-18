@@ -68,6 +68,7 @@
 ```
 
 ### Examine and run this code from  
+
             https://raw.githubusercontent.com/61cst112/x1-exercises/master/dynamic1.java .
 
 ## Modularize:  
@@ -83,5 +84,6 @@
             }
 ```
 ### Examine this code, then make your own modifications and run it!
+
             https://raw.githubusercontent.com/61cst112/x1-exercises/master/dynamic2.java 
 
