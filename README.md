@@ -6,12 +6,17 @@
   * Draw various shapes:  point, line, triangle, rect, ellipse.   
   * Use different colors (red, green, etc.)
 
-x1b.  Scene + "creature"
+#### x1b.  Scene + "creature"
   * Make a schene (blue sky, green grass, red house)
   * Add a creature at (200,300).  
  
-x1c:  Use variables for creature position (x,y)  
+#### x1c:  Use variables for creature position (x,y)  
+ * float x=200, y=300;
 
-x1d:  Dynamic sketch -- creature position changes    
+#### x1d:  Dynamic sketch -- creature position changes    
+ * void setup() {
+  ...
+ * void draw() {
+  ...
 
-* x1e:  Modularization
+#### x1e:  Modularization
