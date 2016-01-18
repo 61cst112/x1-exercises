@@ -36,3 +36,4 @@ void draw()
             // Also display the author and file name.
             text( "B.A.Martin / dynamic1.java", 10, height-10 );
 }
+
