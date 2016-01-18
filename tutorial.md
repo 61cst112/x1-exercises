@@ -41,8 +41,8 @@
 ````            
 
 ## For dynamic sketches,
-  - put setup code in a ````setup( )```` method _(called once)_, and
-  - code to draw each frame in a ````draw( )```` method _(called repeatedly)_:
+  1. put setup code in a ````setup( )```` method _(called once)_, and
+  2. code to draw each frame in a ````draw( )```` method _(called repeatedly)_:
 
 ````
             //// Example of a dynamic sketch.
