@@ -74,8 +74,10 @@
             }
 ````
 
+### Examine and run this code from https://raw.githubusercontent.com/61cst112/x1-exercises/master/dynamic1.java .
+
 ## Modularize:  
-* Organize the code with bite-sized pieces (blocks).
+* Organize the code using bite-sized pieces (blocks).
 ````
             //// DRAW:  Next frame.
             void draw()
@@ -86,4 +88,6 @@
                         messages();
             }
 
+### Examine this code at https://raw.githubusercontent.com/61cst112/x1-exercises/master/dynamic1.java ,  
+then make your own modifications and run it!
 
