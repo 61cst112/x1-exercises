@@ -75,15 +75,15 @@
 ````
 
 ## Modularize:  
-            Break up the code into bite-sized pieces (blocks).
+            Organize the code with bite-sized pieces (blocks).
 ````
-//// DRAW:  Next frame.
-void draw()
-{
-  scene();
-  action();
-  show();
-  messages();
-}
+            //// DRAW:  Next frame.
+            void draw()
+            {
+                        scene();
+                        action();
+                        show();
+                        messages();
+            }
 
 
