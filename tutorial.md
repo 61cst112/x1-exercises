@@ -14,7 +14,6 @@
             triangle( 100,100, 150,100, 125,50 );           // Roof.
 ```            
 * Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
-
 ```
             //// SETUP:  Define screen size, set modes.
             {
@@ -30,13 +29,11 @@
                         ellipse( width/2, 50, 30,30 );                  // Yellow sun
             }
 ```
-
-* Variables must be declared.  _(Use only_ __```float```__ _ for now.)_
+* Variables must be declared.  (Use only __```float```__ for now.)
 ```
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
 ```            
-
 ## For dynamic sketches,
   1. put setup code in a ```setup( )``` method _(called once)_, and
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
