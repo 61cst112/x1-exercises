@@ -7,7 +7,7 @@
   * Use different colors (red, green, etc.)
 
 #### x1b.  Scene + "creature"
-  * Make a schene (blue sky, green grass, red house)
+  * Make a scene (blue sky, green grass, red house)
   * Add a creature at (200,300).  
  
 #### x1c:  Use variables for creature position (x,y)  
