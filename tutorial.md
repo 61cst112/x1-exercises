@@ -3,9 +3,7 @@
 ## Syntax Rules
 
 * Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
-````
-    // Always begin with a comment that says what you are trying to do!
-````
+````    // Always begin with a comment that says what you are trying to do!````
 
 * Semicolon __;__ must end each statement.
 
@@ -35,7 +33,7 @@
 ````
 
 * Variables must be declared.  _(Use _ __float__ _ for now.)__
- 
+
 ````
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
