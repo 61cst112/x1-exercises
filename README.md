@@ -1,6 +1,5 @@
 # x1-exercises
-Exercises (for the beginner)
-============================
+## Exercises (for the beginner)
 
 x1a.  Shapes & colors  
   * Draw various shapes:  point, line, triangle, rect, ellipse.   
