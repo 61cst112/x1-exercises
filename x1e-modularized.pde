@@ -1,7 +1,9 @@
 // Practice -- dynamic sketch, with variables.
 // B.A.Martin
 
-float x, y;
+float x, y;                        // Zoog coordinates.
+float dx, dy;                      // Zoog speed.
+
 float horizon;
 float sunX=0, sunDX=1, sunY=50;
 
@@ -54,8 +56,8 @@ void scene(){
 //// MESSAGES
 void messages() {
   fill(0);
-  text( "Press any key to move Zoog!", width/3,10 );
-  text( "Click mouse to relocate Zoog!", width/3,20 );
+  text( "Click mouse to relocate Zoog!", width/3,10 );
+  text( "(Zoog goes home when 'h' key is pressed.)", width/3,10 );
   fill( 0,0,255 );
   text( "x1e-modular.  My name is:  B.A.Martin", 10,height-10 );
 }
@@ -100,16 +102,16 @@ void show() {
 void mousePressed() {
   x=  mouseX;
   y=  mouseY;
+  dx=  random( 1, 5 );
+  dy=  random( 0.5, 3.5 );
 }
 void keyPressed() {
   if (key == 'q') {
-    exit;
+    exit();
   }
   if (key == 'h') {
     x=  200;              // Back to house
     y=  horizon-50;
-    dx=  random( 1, 5 );
-    dy=  random( 0.5, 3.5 );
   }
 }
 
