@@ -2,7 +2,7 @@
 
 ## Syntax Rules
 
-* Double-slash __<FONT SIZE=+3 COLOR=RED>//</FONT>__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
+* Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
 
 ````
             // Always begin with a comment that says what you are trying to do!
