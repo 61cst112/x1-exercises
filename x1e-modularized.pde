@@ -39,7 +39,7 @@ void scene(){
   
   // Sun 
   fill( 255,220,0 );
-  ellipse( sunX,50, 40,40 );
+  ellipse( sunX,sunY, 40,40 );
   sunX=  sunX + sunDX;
   if (sunX>width) {                      // Sunset
     sunX=  0;
