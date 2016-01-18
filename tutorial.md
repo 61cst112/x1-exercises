@@ -39,7 +39,7 @@
             float sunX=50, sunY=50; // Starting position for the sun.
 ````            
 
-* For dynamic sketches,  
+## For dynamic sketches,  
             - put setup code in a ````setup( )```` method _(called once)_, and
             - code to draw each frame in a ````draw( )```` method _(called repeatedly)_:
 
