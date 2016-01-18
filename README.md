@@ -18,6 +18,7 @@
     void setup( ) {
       // ...
     }
+    ////// DRAW THE NEXT FRAME //////
     void draw( ) {
       // ...
       // Change the coordinates (x,y)
