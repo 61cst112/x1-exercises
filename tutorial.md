@@ -31,20 +31,48 @@
             {
                         background( 150, 200, 250 );                    // Blue sky
                         fill( 255, 255, 0 );
-                        ellipse( width/2, 50, 30,30 );                  // Yello sun
+                        ellipse( width/2, 50, 30,30 );                  // Yellow sun
             }
 ````
 
-* Blah blah
-
-* Double-slash **//** begins a *comment*.  (The remainder of the line is ignored by compiler.)
-* Semicolon **;** must end each statement.
-* Each **BLOCK** of statements should be indented and surrounded by *curly-braces*:
+* Variables must be declared.  _(Use _ __float__ _ for now.)__
+ 
 ````
+            float x=200, y=300;     // Starting position of creature.
+            float sunX=50, sunY=50; // Starting position for the sun.
+````            
+
+* For dynamic sketches, put setup code in a ````setup( )```` method _(called once)_,
+and code to draw each frame in a ````draw( )```` method _(called repeatedly)_:
+
+````
+            //// Example of a dynamic sketch.
+            //// Creature follows the mouse, while sun moves across the sky.
+
+            float x,y;              // Position of creature and sun.
+            float sunX, sunY;
+            
+            //// SETUP:  Define screen size, set modes.
+            void setup()
             {
-                        ...
+                        size( 600, 400 );
+                        sunX=  width/2;         // Start the sun half-way across the screen.
+                        sunY=  50;
             }
-*         
 
-* Blah blah
-* 
+            //// DRAW:  sky & sun plus creature
+            void draw()
+            {
+                        background( 150, 200, 250 );                    // Blue sky
+                        fill( 255, 255, 0 );
+                        ellipse( sunX, sunY, 30,30 );                   // Yellow sun
+                        sunX=  sunX + 1;
+                        if (sunX > width) sunX=  0;
+
+                        fill( 0,0,200 );
+                        rect( mouseX, mouseY, 50, 80 );                 // Blue creature
+                        ellipse( mouseX+25, mouseY-20, 40,40 );
+            }
+````
+
+
