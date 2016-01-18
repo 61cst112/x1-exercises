@@ -14,10 +14,10 @@
  * float x=200, y=300;
 
 #### x1d:  Dynamic sketch -- creature position changes    
- * void setup( ) {
-  ...
- * void draw( ) {
-  ...
+ ` void setup( ) {
+   ...
+ ` void draw( ) {
+   ...
  x=  x + dx;
  y=  y + dy;
 
