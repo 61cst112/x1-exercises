@@ -16,11 +16,14 @@
 #### x1d:  Dynamic sketch -- creature position changes    
  ````
     void setup( ) {
-      ...
+      // ...
+    }
     void draw( ) {
-      ...
+      // ...
       x=  x + dx;
       y=  y + dy;
+      // ...
+    }
  ````
 
 #### x1e:  Modularization
