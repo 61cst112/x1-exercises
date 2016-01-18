@@ -5,8 +5,8 @@
 * Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
 
 ````
-            // Always begin with a comment that says what you are trying to do!````
-
+            // Always begin with a comment that says what you are trying to do!
+````
 * Semicolon __;__ must end each statement.
 
 ````
@@ -15,7 +15,6 @@
             rect( 100,100, 50,50 );
             triangle( 100,100, 150,100, 125,50 );           // Roof.
 ````            
-
 * Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
 
 ````
