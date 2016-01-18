@@ -15,7 +15,7 @@
 
 #### x1d:  Dynamic sketch -- creature position changes    
  ````
-     void setup( ) {
+    void setup( ) {
       ...
     void draw( ) {
       ...
