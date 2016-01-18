@@ -28,3 +28,12 @@
  ````
 
 #### x1e:  Modularization
+````
+// DRAW NEXT FRAME:  scene, house, Zoog
+void draw() {
+  scene();
+  action();
+  show();
+  messages();
+}
+````
