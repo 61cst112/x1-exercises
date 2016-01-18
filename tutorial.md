@@ -31,7 +31,7 @@
             }
 ```
 
-* Variables must be declared.  _(Use only ```float```, for now.)__
+* Variables must be declared.  _(Use only_ __```float```__ _ for now.)__
 ```
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
