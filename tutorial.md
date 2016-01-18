@@ -15,12 +15,11 @@
 * 
 
 
-* Semicolon **;** must end each statement.
+* Semicolon **;** must end each statement.````
+            // Always begin with a comment that says what you are trying to do!
+
 * Double-slash **//** begins a *comment*.  (The remainder of the line is ignored by compiler.)
 ````
-            // This is an example of some Processing statements, with comments.
-            // (Always begin with a comment that says what you are trying to do!)
-
             // Draw a red house, with roof.
             fill( 255, 0, 0 );                              // Red house
             rect( 100,100, 50,50 );
