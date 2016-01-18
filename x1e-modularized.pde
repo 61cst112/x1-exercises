@@ -57,9 +57,9 @@ void scene(){
 void messages() {
   fill(0);
   text( "Click mouse to relocate Zoog!", width/3,10 );
-  text( "(Zoog goes home when 'h' key is pressed.)", width/3,20 );
+  text( "(Zoog goes home when 'h' key is pressed.)", width/2, horizon-10 );
   fill( 0,0,255 );
-  text( "x1e-modular.  My name is:  B.A.Martin", 10,height-10 );
+  text( "x1e-modular.  B.A.Martin", 10,height-10 );
 }
 
 
