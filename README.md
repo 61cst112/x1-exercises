@@ -14,7 +14,7 @@
  * float x=200, y=300;
 
 #### x1d:  Dynamic sketch -- Move the creature
- ````
+````
     void setup( ) {
       // ...
     }
@@ -29,11 +29,11 @@
 
 #### x1e:  Modularization
 ````
-// DRAW NEXT FRAME:  scene, house, Zoog
-void draw() {
-  scene();
-  action();
-  show();
-  messages();
-}
+   // DRAW NEXT FRAME:  scene, house, Zoog
+   void draw() {
+      scene();
+      action();
+      show();
+      messages();
+   }
 ````
