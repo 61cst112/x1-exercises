@@ -75,7 +75,7 @@
 ````
 
 ## Modularize:  
-            Organize the code with bite-sized pieces (blocks).
+* Organize the code with bite-sized pieces (blocks).
 ````
             //// DRAW:  Next frame.
             void draw()
