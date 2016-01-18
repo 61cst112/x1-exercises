@@ -12,6 +12,8 @@ void setup() {
   horizon=  height/3;
   x=  200;
   y=  horizon-50;
+  dx=  3;
+  dy=  2;
 }
 
 
@@ -61,8 +63,8 @@ void messages() {
 
 //// ACTION:  Move the creature
 void action() {
-  x=  x+3;
-  y=  y+2;
+  x=  x + dx;
+  y=  y + dy;
   if (x>width) {
     x=150;
     y=horizon-50;
@@ -99,4 +101,16 @@ void mousePressed() {
   x=  mouseX;
   y=  mouseY;
 }
+void keyPressed() {
+  if (key == 'q') {
+    exit;
+  }
+  if (key == 'h') {
+    x=  200;              // Back to house
+    y=  horizon-50;
+    dx=  random( 1, 5 );
+    dy=  random( 0.5, 3.5 );
+  }
+}
+
 
