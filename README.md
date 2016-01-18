@@ -13,13 +13,14 @@
 #### x1c:  Use variables for creature position (x,y)  
  * float x=200, y=300;
 
-#### x1d:  Dynamic sketch -- creature position changes    
+#### x1d:  Dynamic sketch -- Move the creature
  ````
     void setup( ) {
       // ...
     }
     void draw( ) {
       // ...
+      // Change the coordinates (x,y)
       x=  x + dx;
       y=  y + dy;
       // ...
