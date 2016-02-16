@@ -5,7 +5,7 @@ float x, y;                        // Zoog coordinates.
 float dx, dy;                      // Zoog speed.
 
 float horizon;
-float sunX=0, sunDX=1, sunY=50;
+float xSun=0, dxSun=1, ySun=50;
 
 // SETUP:  size & modes
 void setup() {
@@ -39,11 +39,11 @@ void scene(){
   
   // Sun 
   fill( 255,220,0 );
-  ellipse( sunX,sunY, 40,40 );
-  sunX=  sunX + sunDX;
-  if (sunX>width) {                      // Sunset
-    sunX=  0;
-    sunY=  random( 50, 150 );
+  ellipse( xSun,ySun, 40,40 );
+  xSun=  xSun + dxSun;
+  if (xSun>width) {                      // Sunset
+    xSun=  0;
+    ySun=  random( 50, 150 );
   }
 
   // House
