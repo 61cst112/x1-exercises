@@ -6,8 +6,8 @@ float x, y;                        // Zoog coordinates.
 float dx, dy;                      // Zoog speed.
 
 float horizon;
-float sunX=0, sunDX=1, sunY=50;
-float goldX=100, goldY=200;
+float xSun=0, dxSun=1, ySun=50;
+float xGold=100, yGold=200;
 
 boolean freeze=false;
 
@@ -47,11 +47,11 @@ void scene(){
   
   // Sun 
   fill( 255,220,0 );
-  ellipse( sunX,sunY, 40,40 );
-  sunX=  sunX + sunDX;
-  if (sunX>width) {                      // Sunset
-    sunX=  0;
-    sunY=  random( 50, 150 );
+  ellipse( xSun,ySun, 40,40 );
+  sSun=  xSun + dxSun;
+  if (xSun>width) {                      // Sunset
+    xSun=  0;
+    ySun=  random( 50, 150 );
   }
 
   // House
@@ -111,19 +111,19 @@ void show() {
   
   // Gold
   fill( random(240,255), random(140,180), random(0,50) );
-  ellipse( goldX, goldY, 60, 40 );
+  ellipse( xGold, yGold, 60, 40 );
   fill( random(240,255), random(140,180), random(0,50) );
-  ellipse( goldX, goldY, 50, 30 );
+  ellipse( xGold, yGold, 50, 30 );
   fill( random(240,255), random(140,180), random(0,50) );
-  ellipse( goldX, goldY, 40, 20 );
+  ellipse( xGold, yGold, 40, 20 );
 }
 
 
 //// EVENT HANDLERS:  Mouse click
 void mousePressed() {
   reset();
-  goldX=  mouseX;
-  goldY=  mouseY;
+  xGold=  mouseX;
+  yGold=  mouseY;
 }
 void keyPressed() {
   if (key == 'q') {
