@@ -48,7 +48,7 @@ void scene(){
   // Sun 
   fill( 255,220,0 );
   ellipse( xSun,ySun, 40,40 );
-  sSun=  xSun + dxSun;
+  xSun=  xSun + dxSun;
   if (xSun>width) {                      // Sunset
     xSun=  0;
     ySun=  random( 50, 150 );
